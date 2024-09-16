@@ -5,7 +5,7 @@ const isProtectedRoute = createRouteMatcher([
   "/organization(.*)/settings(.*)",
   "/board(.*)",
   "/select-org",
-  "/(api|trpc)(.*)"
+  "/api/cards(.*)"
 ]);
 export default clerkMiddleware((auth, req) => {
   const userId = auth().userId;
