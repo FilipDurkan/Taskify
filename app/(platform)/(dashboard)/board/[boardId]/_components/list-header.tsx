@@ -6,7 +6,7 @@ import { useAction } from "@/hooks/use-action";
 import { ListWithCards } from "@/types";
 import { ElementRef, useRef, useState } from "react";
 import { toast } from "sonner";
-import { useEventListener, useOnClickOutside } from "usehooks-ts";
+import { useEventListener } from "usehooks-ts";
 import { ListOptions } from "./list-options";
 
 interface ListHeaderProps {

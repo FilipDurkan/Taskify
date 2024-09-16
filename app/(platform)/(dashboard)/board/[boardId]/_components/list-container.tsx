@@ -70,7 +70,7 @@ export const ListContainer = ({ data, boardId }: ListContainerProps) => {
 
     //User moves a card
     if (type === "card") {
-      let newOrderedData = [...orderedData];
+      const newOrderedData = [...orderedData];
 
       //source and destination list
       const sourceList = newOrderedData.find(
